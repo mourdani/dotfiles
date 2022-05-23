@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/mez/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -87,13 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases 
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias nx="cd /home/mez/Nextcloud && ls"
-alias meteo="curl sky.webionite.com/saint-denis"
-alias vpn="sudo wg-quick up /home/mez/Nextcloud/cnf/wireguard/wg_conf/mullvad-fr12"
-alias mini="cd ~/Nextcloud/edu/42/minitalk"
-alias bpcopy="xclip -sel cli"
-alias crontab="export VISUAL=vim; crontab"
-alias today="todo -h list | grep today"
+
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 

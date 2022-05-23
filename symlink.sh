@@ -13,5 +13,7 @@ rm -f ~/.tmux.conf
 ln -s $PWD/.zshrc ~/.zshrc
 ln -s $PWD/.vimrc ~/.vimrc
 ln -s $PWD/.tmux.conf ~/.tmux.conf
+
+source ~/.zshrc
 echo "============== Symlinks Created ==============="
 

@@ -5,6 +5,6 @@ rm ~/.vimrc
 rm ~/.zshrc
 rm ~/.tmux.conf
 
-ln -s .zshrc ~/.zshrc
-ln -s .vimrc ~/.vimrc
-ln -s .tmux/conf ~/.tmux.conf
+ln -s $PWD/zshrc ~/.zshrc
+ln -s $PWD/vimrc ~/.vimrc
+ln -s $PWD/tmux/conf ~/.tmux.conf

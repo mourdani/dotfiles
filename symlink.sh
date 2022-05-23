@@ -32,5 +32,5 @@ vim  -c 'PlugInstall' \
 echo "============================="
 echo "        Sourcing ZSH         "
 echo "============================="
-source ~/.zshrc
+source $PWD/.zshrc
 

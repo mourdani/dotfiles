@@ -10,8 +10,8 @@ rm -f ~/.zshrc
 rm -f ~/.tmux.conf
 
 # symlinking remote configs
-ln -s $PWD/zshrc ~/.zshrc
-ln -s $PWD/vimrc ~/.vimrc
-ln -s $PWD/tmux/conf ~/.tmux.conf
+ln -s $PWD/.zshrc ~/.zshrc
+ln -s $PWD/.vimrc ~/.vimrc
+ln -s $PWD/.tmux.conf ~/.tmux.conf
 echo "============== Symlinks Created ==============="
 
